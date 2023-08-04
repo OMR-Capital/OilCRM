@@ -6,10 +6,11 @@ authors = ["butvinm <butvin.mihail@yandex.ru>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = "3.9.*"
 wemake-python-styleguide = "^0.18.0"
 mypy = "^1.4.1"
 pytest = "^7.4.0"
+tomli = "^2.0.1"
 
 [build-system]
 requires = ["poetry-core"]
